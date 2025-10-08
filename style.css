@@ -1,13 +1,18 @@
 body {
-   background: rgb(83, 9, 9); 
+   background: rgb(204, 85, 85); 
 }
 /* Select by TAG type*/ 
 p {
-    color:gold; 
+    color:rgb(241, 168, 168); 
 }
 /* Select by id name (unique) */
 #carolyn {
-    background: black
+    background: #e47d7d ;
+    border: 1px groove white;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px 
+
 }
 /* Select by CLASS name (shared styles) */
 .uniform {
@@ -15,10 +20,26 @@ p {
 }
 
 h1 {
-    color: darksalmon;
+    color: rgb(245, 160, 160);
     font-weight: 200; 
 font-style: italic;
 font-size: 40px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 text-align:center
+}  
+/*"comment-out" code (deactivate)
+* {
+    border: 2px solid red;
+}
+    */
+
+    .centered {
+    text-align: center;
+    margin: auto;
+} 
+
+img {
+    border-width: 4px; 
+    border-style: double;
+    border-color: antiquewhite;
 }
